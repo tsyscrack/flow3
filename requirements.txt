@@ -4,3 +4,6 @@ pynacl
 fake-useragent
 colorama
 pytz
+base58
+tqdm
+solders
