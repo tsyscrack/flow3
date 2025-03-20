@@ -131,7 +131,7 @@ class Flow3:
                 "message":message,
                 "walletAddress":address,
                 "signature":signature_base58,
-                "referralCode":"6AYewrGk3"
+                "referralCode":"eaUuaPZdp"
             }
             
             return data
@@ -434,7 +434,7 @@ class Flow3:
             with open('accounts.txt', 'r') as file:
                 accounts = [line.strip() for line in file if line.strip()]
             
-            use_proxy_choice = self.print_question()
+            use_proxy_choice = 2
 
             use_proxy = False
             if use_proxy_choice in [1, 2]:
